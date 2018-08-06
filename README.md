@@ -1,11 +1,8 @@
-# Build only the app container
+# Install
 
 ```
-sudo docker build -t odaw .
-```
-
-```
-sudo docker run -d -p 8080:80 odaw
+sudo apt-get install docker
+sudo apt-get install docker-compose
 ```
 
 # Build docker compose
@@ -14,7 +11,6 @@ sudo docker run -d -p 8080:80 odaw
 sudo docker-compose up --build
 sudo docker-compose up
 ```
-
 
 # Delete all docker images
 
