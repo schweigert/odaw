@@ -9,6 +9,7 @@
   <body>
     <ul>
       <li><a href="/au/01/">Aula 001</a></li>
+      <li><a href="/au/02/">Aula 002</a></li>
     </ul>
 
     <!-- Javascript -->
