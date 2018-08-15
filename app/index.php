@@ -8,8 +8,9 @@
 
   <body>
     <ul>
-      <li><a href="/au/01/">Aula 001</a></li>
-      <li><a href="/au/02/">Aula 002</a></li>
+      <li><a href="/au/01/">Aula 01</a></li>
+      <li><a href="/au/02/">Aula 02</a></li>
+      <li><a href="/au/03/">Aula 03</a></li>
     </ul>
 
     <!-- Javascript -->
