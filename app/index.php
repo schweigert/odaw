@@ -13,6 +13,7 @@
       <li><a href="/au/03/">Aula 03</a></li>
       <li><a href="/au/04a/">Aula 04a</a></li>
       <li><a href="/au/04b/">Aula 04b</a></li>
+      <li><a href="/au/04c/">Aula 04c</a></li>
     </ul>
 
     <!-- Javascript -->

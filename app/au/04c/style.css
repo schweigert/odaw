@@ -1,0 +1,30 @@
+html {
+  background-image: url('background.png');
+}
+
+body, html{
+  background-color: rgb(50, 150, 255);
+  margin-left: 5%;
+  margin-right: 5%;
+  text-align: justify;
+}
+
+h1, h2, p, li {
+  font-family: "Courier", Times, serif;
+  margin: 5% 5% 5% 5%;
+}
+
+p, li, a {
+  color: 111;
+  text-align: justify;
+}
+
+li {
+  margin-top: 0% !important;
+  margin-bottom: 0% !important;
+}
+
+h1, h2, h3, h4, h5 {
+  color: #fff;
+  text-align: center;
+}
