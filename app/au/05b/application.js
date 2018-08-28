@@ -62,3 +62,22 @@ $('#c [name=name]').on('focusout', function() {
 
   alert(final)
 })
+
+function harold(standIn) {
+  if (standIn < 10) {
+    standIn = '0' + standIn
+  }
+  return standIn;
+}
+
+function clock() {
+  var time = new Date(),
+  hours = time.getHours(),
+  minutes = time.getMinutes(),
+  seconds = time.getSeconds();
+  var time_text = harold(hours) + ":" + harold(minutes) + ":" + harold(seconds);
+  $('.clock').html(time_text)
+}
+
+clock()
+setInterval(clock, 1000);
