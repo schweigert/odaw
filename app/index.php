@@ -14,6 +14,8 @@
       <li><a href="/au/04a/">Aula 04a</a></li>
       <li><a href="/au/04b/">Aula 04b</a></li>
       <li><a href="/au/04c/">Aula 04c</a></li>
+      <li><a href="/au/05a/">Aula 05a</a></li>
+      <li><a href="/au/05b/">Aula 05b</a></li>
     </ul>
 
     <!-- Javascript -->
