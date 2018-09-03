@@ -104,6 +104,19 @@
         </div>
       </div>
     </div>
+
+      <div class="col-sm-3">
+        <div class="card">
+          <div class="card-header">
+            ATIVIDADE D
+          </div>
+          <div class="card-body">
+            <div id="c"><a href="" onclick="somaValor()"> Realizar uma soma </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
     <footer>
       <!-- Javascript -->
       <script src="/js/jquery.min.js" crossorigin="anonymous"></script>

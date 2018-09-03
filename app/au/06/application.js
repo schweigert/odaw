@@ -111,3 +111,13 @@ hs.map(function(h){
   hList[0].appendChild(createHN(h))
   return h
 })
+
+function somaValor(){
+	n1 = prompt("Faremos uma soma, digite o valor do primeiro numero: ");
+	n2 = prompt("O segundo");
+	soma = parseInt(n1)+parseInt(n2);
+	alert("O resultado da soma é: "+soma);
+}
+
+
+
