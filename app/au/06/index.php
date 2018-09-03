@@ -7,7 +7,6 @@
     <link rel="stylesheet" href="/css/bootstrap.min.css" crossorigin="anonymous">
   </head>
   <body>
-
     <div class="row p-5">
       <div class="col-sm-3">
         <div class="card">
@@ -111,7 +110,7 @@
             ATIVIDADE D
           </div>
           <div class="card-body">
-            <div id="c"><a href="" onclick="somaValor()"> Realizar uma soma </a>
+            <div id="d"><a href="" onclick="somaValor()"> Realizar uma soma </a>
             </div>
           </div>
         </div>
