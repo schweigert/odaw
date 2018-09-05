@@ -18,6 +18,7 @@
       <li><a href="/au/05b/">Aula 05b</a></li>
       <li><a href="/au/06/">Aula 06</a></li>
       <li><a href="/au/07/">Aula 07</a></li>
+      <li><a href="/au/08/">Aula 08</a></li>
     </ul>
 
     <!-- Javascript -->
