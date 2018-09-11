@@ -13,8 +13,16 @@
     }
 
     public function create() {
-      echo 'hehe';
-      return $this->mysqlConn();
+      $conn = $this->mysqlConn();
+      mysqli_query(
+        $conn,
+        '
+        INSERT INTO
+          users (username, password, email)
+        VALUES
+          ("'.$this->username.'", "'.$this->password.'", "'.$this->email.'")
+        '
+      ) or die(mysqli_error($conn));
     }
   }
 ?>
