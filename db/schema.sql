@@ -1,2 +1,10 @@
-create database odaw;
-use odaw;
+CREATE DATABASE IF NOT EXISTS odaw;
+USE odaw;
+
+CREATE TABLE IF NOT EXISTS users(
+  id INT NOT NULL AUTO_INCREMENT,
+  username VARCHAR(256) NOT NULL,
+  password VARCHAR(256) NOT NULL,
+  email VARCHAR(256) NOT NULL,
+  PRIMARY KEY(id)
+) engine=INNODB;

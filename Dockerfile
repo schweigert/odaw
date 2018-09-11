@@ -1,3 +1,3 @@
-FROM php:7.0-apache
+FROM burnett01/docker-php7-1-apache-mysql
 
 EXPOSE 80
