@@ -13,15 +13,16 @@
     }
 
     public function all() {
-      $all = [];
       $conn = $this->mysqlConn();
 
       $sql = '
-        SELECT username, password, email
+        SELECT id, username, password, email
         FROM users
       ';
 
-      return $this->resultToArray($conn->query($sql));
+      $all = $this->resultToArray($conn->query($sql));
+      $conn->close();
+      return $all;
     }
 
     public function create() {
@@ -35,6 +36,35 @@
           ("'.$this->username.'", "'.$this->password.'", "'.$this->email.'")
         '
       ) or die(mysqli_error($conn));
+
+      $conn->close();
+    }
+
+    public function update($id) {
+      $conn = $this->mysqlConn();
+      mysqli_query(
+        $conn,
+        '
+        UPDATE users
+        SET username="'.$this->username.'", password="'.$this->password.'", email="'.$this->email.'"
+        WHERE id="'.$id.'"
+        '
+      ) or die(mysqli_error($conn));
+
+      $conn->close();
+    }
+
+    public function destroy($id) {
+      $conn = $this->mysqlConn();
+      mysqli_query(
+        $conn,
+        '
+        DELETE FROM users
+        WHERE id="'.$id.'"
+        '
+      ) or die(mysqli_error($conn));
+
+      $conn->close();
     }
   }
 ?>
