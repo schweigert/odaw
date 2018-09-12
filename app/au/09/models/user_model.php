@@ -6,10 +6,22 @@
     var $password;
     var $email;
 
-    function __construct($username, $password, $email){
+    function __construct($username = '', $password = '', $email = ''){
       $this->username = $username;
       $this->password = $password;
       $this->email = $email;
+    }
+
+    public function all() {
+      $all = [];
+      $conn = $this->mysqlConn();
+
+      $sql = '
+        SELECT username, password, email
+        FROM users
+      ';
+
+      return $this->resultToArray($conn->query($sql));
     }
 
     public function create() {

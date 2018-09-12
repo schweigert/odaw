@@ -10,5 +10,13 @@
 
       return $conn;
     }
+
+    public function resultToArray($result) {
+      while($row = $result->fetch_assoc()) {
+          $rows[] = $row;
+      }
+
+      return $rows;
+    }
   }
 ?>
