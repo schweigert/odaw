@@ -5,8 +5,8 @@
 ?>
 
 <?php
-  (new UserModel('kkk'))->update(1);
-  (new UserModel('kkk'))->destroy(5);
+  (new UserModel('sei la'))->update(108);
+  (new UserModel())->destroy(103);
 ?>
 
 <?php
